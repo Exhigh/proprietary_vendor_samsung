@@ -15,13 +15,13 @@
 # limitations under the License.
 #
 
-VENDOR_PATH=vendor/samsung/zero-common
+VENDOR_PATH=vendor/samsung/noblelte-common
 
 # include blob-finder
-include vendor/samsung/zero-common/find-vendor-blobs.mk
+include vendor/samsung/noblelte-common/find-vendor-blobs.mk
 
 # common proprietary blobs
-PRODUCT_COPY_FILES += $(call find-vendor-blobs,vendor/samsung/zero-common/proprietary)
+PRODUCT_COPY_FILES += $(call find-vendor-blobs,vendor/samsung/noblelte-common/proprietary)
 
 # open-source blobs
-PRODUCT_COPY_FILES += $(call find-vendor-blobs,vendor/samsung/zero-common/opensource)
+PRODUCT_COPY_FILES += $(call find-vendor-blobs,vendor/samsung/noblelte-common/opensource)
