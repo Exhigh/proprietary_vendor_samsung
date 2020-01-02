@@ -22,6 +22,3 @@ include vendor/samsung/noblelte-common/find-vendor-blobs.mk
 
 # common proprietary blobs
 PRODUCT_COPY_FILES += $(call find-vendor-blobs,vendor/samsung/noblelte-common/proprietary)
-
-# open-source blobs
-PRODUCT_COPY_FILES += $(call find-vendor-blobs,vendor/samsung/noblelte-common/opensource)
