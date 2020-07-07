@@ -15,10 +15,10 @@
 # limitations under the License.
 #
 
-VENDOR_PATH=vendor/samsung/noblelte-common
+VENDOR_PATH=vendor/samsung/universal7420-common
 
 # include blob-finder
-include vendor/samsung/noblelte-common/find-vendor-blobs.mk
+include vendor/samsung/universal7420-common/find-vendor-blobs.mk
 
 # common proprietary blobs
-PRODUCT_COPY_FILES += $(call find-vendor-blobs,vendor/samsung/noblelte-common/proprietary)
+PRODUCT_COPY_FILES += $(call find-vendor-blobs,vendor/samsung/universal7420-common/proprietary)
